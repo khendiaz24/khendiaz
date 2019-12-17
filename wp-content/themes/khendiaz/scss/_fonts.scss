@@ -1,0 +1,36 @@
+// include all imported fonts here even google fonts
+@charset 'utf-8';
+/** font face **/
+@font-face {
+  font-family: 'Sarina';
+  src: url('font/Sarina-Regular.eot');
+  src: url('font/Sarina-Regular.woff2') format('woff2'),
+       url('font/Sarina-Regular.woff') format('woff'),
+       url('font/Sarina-Regular.ttf') format('truetype'),
+       url('font/Sarina-Regular.svg#Sarina-Regular') format('svg'),
+       url('font/Sarina-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('font/AvenirLTStdRoman.eot');
+    src: url('font/AvenirLTStdRoman.eot') format('embedded-opentype'),
+         url('font/AvenirLTStdRoman.woff2') format('woff2'),
+         url('font/AvenirLTStdRoman.woff') format('woff'),
+         url('font/AvenirLTStdRoman.ttf') format('truetype'),
+         url('font/AvenirLTStdRoman.svg#AvenirLTStdRoman') format('svg');
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url('font/AvenirLTStd-Black.eot');
+  src: url('font/AvenirLTStd-Black.woff2') format('woff2'),
+       url('font/AvenirLTStd-Black.woff') format('woff'),
+       url('font/AvenirLTStd-Black.ttf') format('truetype'),
+       url('font/AvenirLTStd-Black.svg#AvenirLTStd-Black') format('svg'),
+       url('font/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/** font face **/
